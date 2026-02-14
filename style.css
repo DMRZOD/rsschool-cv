@@ -195,7 +195,7 @@ a {
 .about__content {
   font-family: "Crimson Pro", sans-serif;
   font-weight: 200;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 /* Skills & Education */
@@ -472,4 +472,37 @@ a {
   font-size: 20px;
   font-style: italic;
   color: #d98328;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px 0;
+  font-size: 18px;
+  color: #94a3b8;
+}
+
+.footer__link {
+  transition: color 0.2s ease;
+}
+
+.footer__link:hover {
+  color: #b67725;
+}
+
+.footer__dot {
+  font-size: 32px;
+  user-select: none;
+}
+
+.footer__logo {
+  display: block;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
 }
