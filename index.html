@@ -12,29 +12,29 @@
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__link">About</a>
+              <a href="#about" class="nav__link">About</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Skills</a>
+              <a href="#skills-education" class="nav__link">Skills</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Code</a>
+              <a href="#code-language" class="nav__link">Code</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Experiance</a>
+              <a href="#experience" class="nav__link">Experiance</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Education</a>
+              <a href="#skills-education" class="nav__link">Education</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Language</a>
+              <a href="#code-language" class="nav__link">Language</a>
             </li>
           </ul>
         </nav>
       </header>
 
       <main class="main">
-        <section id="hero-section">
+        <section id="hero">
           <div class="profile">
             <div class="profile__wrapper">
               <img
@@ -144,7 +144,7 @@
 
         <hr class="divider" />
 
-        <section id="about-section">
+        <section id="about">
           <div class="about">
             <p class="about__content">
               “ I am a frontend developer focused on continuous growth and
@@ -159,7 +159,7 @@
 
         <hr class="divider" />
 
-        <section id="info-section">
+        <section id="skills-education">
           <div class="skills">
             <h3 class="title">Skills</h3>
 
@@ -443,7 +443,7 @@
 
         <hr class="divider" />
 
-        <section id="experience-section">
+        <section id="experience">
           <div class="experience">
             <h3 class="title">Experience</h3>
 
@@ -553,6 +553,51 @@
                 </p>
               </article>
             </div>
+          </div>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="code-language">
+          <div class="code">
+            <h3 class="title">Code Example</h3>
+
+            <div class="code__wrapper">
+              <div class="code__header">
+                <ul class="code__header-dots">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <p class="code__header-filename">isPalindrome.js</p>
+              </div>
+              <pre
+                class="code__content"
+              ><code><span class="comment">// Returns true if the string is a palindrome</span>
+<span class="keyword">function</span> <span class="function">isPalindrome</span>(str) {
+  <span class="keyword">const</span> clean = str.<span class="function">toLowerCase</span>().<span class="function">replace</span>(<span class="regex">/[^a-z0-9]/g</span>, <span class="string">""</span>);
+  <span class="keyword">return</span> clean === clean.<span class="function">split</span>(<span class="string">""</span>).<span class="function">reverse</span>().<span class="function">join</span>(<span class="string">""</span>);
+}</code></pre>
+            </div>
+          </div>
+
+          <div class="language">
+            <h3 class="title">Languages</h3>
+
+            <ul class="language__list">
+              <li>
+                <span class="language__name">English</span>
+                <span class="language__level">Upper Intermediate</span>
+              </li>
+              <li>
+                <span class="language__name">Russian</span>
+                <span class="language__level">Billingual</span>
+              </li>
+              <li>
+                <span class="language__name">Uzbek</span>
+                <span class="language__level">Native</span>
+              </li>
+            </ul>
           </div>
         </section>
 
