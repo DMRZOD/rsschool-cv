@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 body {
@@ -52,13 +53,12 @@ a {
 
 /* Navbar */
 
-.nav {
-  position: fixed;
+.header {
+  position: sticky;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 1024px;
+}
+
+.nav {
   padding: 20px;
   z-index: 100;
   font-weight: 700;
@@ -76,7 +76,7 @@ a {
 /* Hero */
 
 #hero {
-  margin: 120px 0 50px 0;
+  margin: 50px 0;
 }
 
 .profile {
