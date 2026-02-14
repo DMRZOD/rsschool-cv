@@ -44,10 +44,18 @@ a {
   font-size: 24px;
 }
 
+.header {
+  padding-top: 70px;
+}
+
 .nav {
-  padding: 20px;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1024px;
+  padding: 20px;
   z-index: 100;
   font-weight: 700;
   font-size: 20px;
