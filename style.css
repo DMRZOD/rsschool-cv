@@ -8,6 +8,7 @@
 
 body {
   font-family: "DM Sans", sans-serif;
+  font-weight: 400;
   background: #0f1729;
   color: #e5e7eb;
   line-height: 1.5;
@@ -27,6 +28,20 @@ a {
 .cv {
   max-width: 1024px;
   margin: 0 auto;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: #b67725;
+}
+
+.subtitle {
+  font-style: italic;
+  font-family: "Crimson Pro", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 .nav {
@@ -165,4 +180,69 @@ a {
   font-size: 24px;
 }
 
+#info-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin: 50px 0;
+}
 
+.skills__item {
+  padding: 15px 0;
+}
+
+.skills__tags {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills__tag {
+  display: inline-block;
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #1e293b;
+  border: 1px solid #94a3b833;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.skills__tag:hover {
+  border-color: #b6772580;
+  transform: translateY(-1px);
+}
+
+.education__item {
+  padding: 15px 0;
+  border-bottom: 1px solid #334155;
+}
+
+.education__link {
+  transition: color 0.3s ease;
+}
+
+.education__link:hover {
+  color: #b7b7b7;
+}
+
+.education__content {
+  color: #b7b7b7;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.education__date,
+.education__place {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.education__icon {
+  width: 20px;
+  height: 20px;
+}
