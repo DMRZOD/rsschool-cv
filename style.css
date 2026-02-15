@@ -372,6 +372,10 @@ a {
   margin: 50px 0;
 }
 
+#code-language .code {
+  min-width: 0;
+}
+
 .code__wrapper {
   margin-top: 24px;
   border: 1px solid #27272a;
@@ -419,7 +423,7 @@ a {
   padding: 20px 24px;
   overflow-x: auto;
   font-family: "JetBrains Mono", monospace;
-  font-size: 0.85rem;
+  font-size: 14px;
   line-height: 1.7;
   color: #e4e4e7;
 }
@@ -511,10 +515,6 @@ a {
 @media (max-width: 768px) {
   /* Base */
 
-  #code-language {
-    grid-template-columns: 1fr;
-  }
-
   .title {
     font-size: 16px;
   }
@@ -598,7 +598,7 @@ a {
 
   #skills-education {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 32px;
     margin: 32px 0;
   }
 
@@ -626,6 +626,27 @@ a {
 
   .experience__stack {
     font-size: 16px;
+  }
+
+  /* Code & Language */
+
+  #code-language {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin: 32px 0;
+  }
+
+  .code__content {
+    padding: 16px;
+  }
+
+  .language__list li {
+    font-size: 16px;
+    padding: 14px 0;
+  }
+
+  .language__level {
+    font-size: 18px;
   }
 }
 
@@ -705,7 +726,7 @@ a {
     font-size: 13px;
   }
 
-  /* Experience */
+  /* Experiance */
 
   #experience {
     margin: 24px 0;
@@ -737,4 +758,6 @@ a {
   .experience__stack {
     font-size: 14px;
   }
+
+  /* Code & Language */
 }
