@@ -30,6 +30,7 @@ a {
 .cv {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .title {
@@ -118,16 +119,17 @@ a {
   display: flex;
   justify-content: center;
   gap: 20px;
+  list-style: none;
 }
 
-.contact__item {
+.contact__link {
   display: flex;
   align-items: center;
   gap: 6px;
   transition: color 0.3s ease;
 }
 
-.contact__item:hover {
+.contact__link:hover {
   color: #b7b7b7;
 }
 
@@ -137,6 +139,7 @@ a {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .social__item {
@@ -216,6 +219,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  list-style: none;
 }
 
 .skills__tag {
@@ -227,7 +231,7 @@ a {
   background: #1e293b;
   border: 1px solid #94a3b833;
   transition: all 0.2s ease;
-  cursor: pointer;
+  cursor: default;
 }
 
 .skills__tag:hover {
@@ -502,7 +506,6 @@ a {
 
 .footer__logo {
   display: block;
-  width: 44px;
-  height: 44px;
+  width: 100px;
   object-fit: contain;
 }
