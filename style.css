@@ -188,14 +188,18 @@ a {
 
 /* About */
 
-.about {
+#about {
   margin: 50px 0;
+}
+
+.about {
   padding: 35px;
   border-radius: 25px;
   background-color: #1e293b;
 }
 
 .about__content {
+  margin-top: 16px;
   font-family: "Crimson Pro", sans-serif;
   font-weight: 200;
   font-size: 22px;
@@ -588,13 +592,17 @@ a {
 
   /* About */
 
-  .about {
+  #about {
     margin: 32px 0;
+  }
+
+  .about {
     padding: 24px 20px;
     border-radius: 16px;
   }
 
   .about__content {
+    margin-top: 12px;
     font-size: 18px;
   }
 
@@ -729,12 +737,16 @@ a {
 
   /* About */
 
-  .about {
+  #about {
     margin: 24px 0;
+  }
+
+  .about {
     padding: 18px 14px;
   }
 
   .about__content {
+    margin-top: 8px;
     font-size: 16px;
   }
 
