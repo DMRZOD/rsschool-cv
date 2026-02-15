@@ -516,10 +516,6 @@ a {
 @media (max-width: 768px) {
   /* Base */
 
-  #skills-education {
-    grid-template-columns: 1fr;
-  }
-
   #code-language {
     grid-template-columns: 1fr;
   }
@@ -602,6 +598,14 @@ a {
   .about__content {
     font-size: 18px;
   }
+
+  /* Skills & Education */
+
+  #skills-education {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin: 32px 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -666,5 +670,17 @@ a {
 
   .about__content {
     font-size: 16px;
+  }
+
+  /* Skills & Education */
+
+  #skills-education {
+    margin: 24px 0;
+    gap: 28px;
+  }
+
+  .skills__tag {
+    padding: 6px 12px;
+    font-size: 13px;
   }
 }
